@@ -11,5 +11,7 @@ public class Main {
         int threadPoolSize = 3;
         OrderProcessor orderProcessor = new OrderProcessor(threadPoolSize);
         orderProcessor.processOrders(orders);
+
+        System.out.println("Project");
     }
 }
